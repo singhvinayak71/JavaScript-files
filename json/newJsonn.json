@@ -1,0 +1,83 @@
+[
+    {
+        "_id": "638dfffbeb0f73cbc2fb6979",
+        "name": "react",
+        "mobile": 8839182358,
+        "email": "singhvinayak71gmail.com",
+        "adhar": 645496486699,
+        "date": "2022-12-05T14:28:11.241Z",
+        "__v": 0
+    },
+    {
+        "_id": "638e01337033a4144b09071a",
+        "name": "reactjs",
+        "mobile": 8839182358,
+        "email": "singhvinayak711@gmail.com",
+        "adhar": 645496486699,
+        "date": "2022-12-05T14:33:23.404Z",
+        "__v": 0
+    },
+    {
+        "_id": "638e01337033a4144b09071b",
+        "name": "javascript",
+        "mobile": 8839182358,
+        "email": "singhvinayak71@gmail.com",
+        "adhar": 645496486699,
+        "date": "2022-12-05T14:33:23.406Z",
+        "__v": 0
+    },
+    {
+        "_id": "638e01337033a4144b09071c",
+        "name": "node",
+        "mobile": 8839182358,
+        "email": "singhvinayak7111@gmail.com",
+        "adhar": 645496486699,
+        "date": "2022-12-05T14:33:23.407Z",
+        "__v": 0
+    },
+    {
+        "_id": "638e01337033a4144b09071d",
+        "name": "mongo",
+        "mobile": 8839182358,
+        "email": "singhvinayak711111@gmail.com",
+        "adhar": 645496486699,
+        "date": "2022-12-05T14:33:23.407Z",
+        "__v": 0
+    },
+    {
+        "_id": "638e021b6406ded63262f1f8",
+        "name": "reactjs",
+        "mobile": 8839182358,
+        "email": "singhvinayak711@gmail.com",
+        "adhar": 645496486699,
+        "date": "2022-12-05T14:37:15.089Z",
+        "__v": 0
+    },
+    {
+        "_id": "638e021b6406ded63262f1f9",
+        "name": "javascript",
+        "mobile": 8839182358,
+        "email": "singhvinayak71@gmail.com",
+        "adhar": 645496486699,
+        "date": "2022-12-05T14:37:15.089Z",
+        "__v": 0
+    },
+    {
+        "_id": "638e021b6406ded63262f1fa",
+        "name": "node",
+        "mobile": 8839182358,
+        "email": "singhvinayak7111@gmail.com",
+        "adhar": 645496486699,
+        "date": "2022-12-05T14:37:15.090Z",
+        "__v": 0
+    },
+    {
+        "_id": "63904695c47515789a0623f4",
+        "name": "vinayak",
+        "mobile": 8839182358,
+        "email": "singhvinayak71@gmail.com",
+        "adhar": 645496486699,
+        "date": "2022-12-07T07:53:57.101Z",
+        "__v": 0
+    }
+]

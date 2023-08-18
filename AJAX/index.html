@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <title>Ajax</title>
+  </head>
+  <body>
+    <h1>Ajax</h1>
+    <p>AJAX = Asynchronous JavaScript And XML.</p>
+    <br />
+    <p>AJAX just uses a combination of:</p>
+    <ul>
+      <li>
+        A browser built-in XMLHttpRequest object (to request data from a web
+        server)
+      </li>
+      <li>JavaScript and HTML DOM (to display or use the data)</li>
+    </ul>
+
+    <button type="button" id="fetchbtn" class="btn btn-primary">fetch data</button>
+    <button type="button" id="getbtn" class="btn btn-secondary">Send data</button>
+    <!-- <button type="button" class="btn btn-success">Success</button> -->
+
+    <h3>step to use AJAX</h3>
+
+    <ul>
+        <li>create a html page and include JavaScript and css file</li>
+        <li>In HTML, create a button and give some id</li>
+        <ul>
+            <li>in JavaScript file, add a eventListener like: fetchData.addEventListener('click', fetchxhr);</li>
+            <li>create an XMLHttpRequest object like: let data = new XMLHttpRequest();</li>
+            <li>then define function for click event like: function fetchxhr(){  }</li>
+            <li>In fetchxhr function, we can define a callback function like: data.onload = funcion(){ // add some code} </li>
+            <li>then send a request to server. you can use open() and then send() like:  data.open('GET',"ajax2.txt");
+                data.send();</li>
+        </ul>
+    </ul>
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
