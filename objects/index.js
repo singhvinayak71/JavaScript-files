@@ -25,4 +25,17 @@ const obj = [
     },
 ]
 console.log(obj[1])
+
+// object destractruing
+
+
+const course = {
+    coursename: 'javascript',
+    price: '999',
+    courseInstructor: 'Hitesh chaudhari'
+  }
+  
+  const {coursename, price,  courseInstructor: instructor} = course
+  console.log(coursename, price, instructor)
+  
    
