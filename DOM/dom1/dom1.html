@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document object model</title>
+  </head>
+
+  <body>
+    <!-- dom1 -->
+    <div>
+      <h1>Document Object Model</h1>
+      <h2>Document Object Model</h2>
+      <h3>Document Object Model</h3>
+      <h4 id="myDIV"></h4>
+    </div>
+    <!-- dom2 -->
+    <input type="text" value="An input field" />
+    <p id="demo"></p>
+    <button>A Button</button>
+  </body>
+  <script>
+    // dom1_---------
+    // console.log(document.body)
+    // console.log(document.firstChild)
+    // console.log(document.childNodes)
+    // console.log(document.lastChild);
+
+    // console.log(document.lastElementChild);
+    document.createElement("p");
+    // const para = document.createElement("p");
+    // para.innerText = "This is a paragraph";
+    // document.body.appendChild(para);
+
+    const para = document.createElement("p");
+    para.innerHTML = "This is a paragraph.";
+    document.getElementById("myDIV").appendChild(para);
+    
+    // dom2------
+
+    function myFunction() {
+      const element = document.activeElement.tagName;
+      console.log(element)
+      document.getElementById("demo").innerHTML = element;
+    }
+    document.addEventListener('click', myFunction)
+    
+  </script>
+</html>
