@@ -85,13 +85,36 @@
 
 //--------- 4. Print all duplicate elements of an array
 
-let arr2 = [1, 2, 2, 3, 4, 5, 6, 8, 9, 7, 8, 9]
+// let arr2 = [1, 2, 2, 3, 4, 5, 6, 8, 9, 7, 8, 9]
 
-function duplicates(ar){
-    let results = ar.filter((item, index)=>{
-        return ar.indexOf(item) !== index;
+// function duplicates(ar){
+//     let results = ar.filter((item, index)=>{
+//         return ar.indexOf(item) !== index;
 
-    })
-    return results
-}
-console.log(duplicates(arr2))
+//     })
+//     return results
+// }
+// console.log(duplicates(arr2))
+
+//---------- 5. Find the missing number from sorted array with O(n) complexity
+
+// let ar = [1, 3, 4, 5, 7, 8, 9];
+
+// function missing(a) {
+//     let missing = [];
+
+//     for(let i = 0; i < ar.length; i++){
+//         if(!(ar[i + 1] - ar[i] == 1) && !(ar[i + 1] == undefined)){
+//             missing.push(ar[i] + 1)
+//         }
+//     }
+//     return missing
+// }
+
+// console.log(missing(ar));
+
+
+//-------- 6.  Find the nth largest element in a sorted array
+
+let arr = [1,2,]
+
