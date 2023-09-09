@@ -17,12 +17,12 @@ let printdetails = function(state, country){
 }
 
 //----- function borrowing
-// printdetails.call(userDatails, 'Delhi', 'india')
+printdetails.call(userDatails, 'Delhi', 'india')
 // printdetails.call(userDatails2, 'delhi', 'india');
 
 //-----Apply -- Apply is same as call function but with apply, we can pass an array list
 // printdetails.apply(userDatails,['Delhi', 'india']);
 
 // Bind - we can crate copy of our function and we can invoke later
-let newFunc = printdetails.bind(userDatails, 'Delhi', 'india')
-newFunc()
+// let newFunc = printdetails.bind(userDatails, 'Delhi', 'india')
+// newFunc()
