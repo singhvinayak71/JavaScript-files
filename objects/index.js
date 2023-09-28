@@ -38,4 +38,3 @@ const course = {
   const {coursename, price,  courseInstructor: instructor} = course
   console.log(coursename, price, instructor)
   
-   
