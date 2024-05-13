@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>localStorage</title>
+</head>
+
+<body>
+
+    score
+    <input type="text" id="score" >
+    <button id="btn">Submit</button>
+
+
+
+
+    <script>
+
+        
+        let btn = document.getElementById("btn")
+
+        btn.addEventListener("click", ()=>{
+            console.log(`clicked`)
+            let score = document.getElementById("score").value;
+            localStorage.setItem("Score", score)
+            let highscore = localStorage.getItem("Score")
+            console.log(highscore)
+            if(highscore){
+                btn.disabled = true;
+            }
+        })
+
+
+
+
+        // let key = prompt("enter name")
+        // let value = prompt("enter your name")
+
+        // localStorage.setItem(key, value);
+        // localStorage.setItem("name", "vinayak singh somvanshi")
+
+        // console.log(`the value at ${key} is ${localStorage.getItem(key)} `)
+        // if(key == "red" || key == "blue"){
+        //     localStorage.removeItem(key)
+        // }
+
+        // if(key == 0){
+        //     localStorage.clear()
+        // }
+
+    </script>
+</body>
+
+</html>
